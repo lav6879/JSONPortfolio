@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+  background-color: #401722;
+  color: #8E8A54;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#contentgrid{
+  background-color: #401722;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  background-color: #8E8A54;
+  font-weight: 400;
+  font-weight: bolder;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.nav-links {
+  width: 100%;
+}
+
+.nav-links a {
+  color: #ECE7DA;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 3vmin;
+  padding: 20px 20px;
+
+}
+
+.nav a:hover {
+  color: #7A6564;
+}
+
+/*.nav-links a:hover:not(.active) {
+  color: #7A6564;
+}*/
+
+h1{
+  text-transform: uppercase;
+  font-family: "Bricolage Grotesque", sans-serif;
+  line-height: 0;
+}
+
+.container {
+    position: absolute;
+    font-size: 13rem;
+
+  }
+  #group1 {
+    top: 20%;
+    left: 5%;
+  }
+
+  #group2 {
+    top: 20%;
+    left: 85%;
+  }
+
+  #group3 {
+    top: 80%;
+    left: 10%;
+  }
+
+  #group4{
+    top: 80%;
+    left: 65%;
+  }
+
+.name {
+  text-align: center;
+}
+
+.namecontainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.letter {
+  transform-origin: center;
+  animation: scatter 5s infinite;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@keyframes scatter {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(50px, -50px);
+  }
+  50% {
+    transform: translate(-50px, 50px);
+  }
+  75% {
+    transform: translate(50px, 50px);
+  }
+  100% {
+    transform: translate(-50px, -50px);
+  }
+}
