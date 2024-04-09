@@ -2,13 +2,13 @@ var outputGridElem;
 
 var portfolioCollection = [
   {
-    "image": "bowlleaf.PNG",
+    "image": "bowlleaf.png",
     "color": "#8E8A54",
     "title": "Abstracts",
     "description": "Assignment: Photograph abstracts of a common object. Only allowing for abstract images, this exercise should force you to see deeper into an image. Turn the images black & white."
   },
   {
-    "image": "bowlcenter.PNG",
+    "image": "bowlcenter.png",
     "color": "#8E8A54",
     "title": "Abstracts",
     "description": "Assignment: Photograph abstracts of a common object. Only allowing for abstract images, this exercise should force you to see deeper into an image. Turn the images black & white."
